@@ -10,6 +10,8 @@
 @import "./utilidades/cores.css";
 @import "./bicicletas/bicicletas-lista.css";
 @import "./bicicletas/bicicletas.css";
+@import "./bicicleta/bicicleta.css";
+@import "./bicicleta/seguro.css";
 @import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";

@@ -5,6 +5,11 @@
     var(--cor-11) 30%
   );
 }
+
+.bicicletas-bg:nth-child(1) {
+  padding: 40px;
+  background: var(--cor-12);
+}
 .bicicletas {
   display: grid;
   grid-template-columns: 1fr 1fr;
