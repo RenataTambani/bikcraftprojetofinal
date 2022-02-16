@@ -12,7 +12,9 @@
 }
 .depoimento-conteudo {
   padding: 40px 40px 80px 80px;
-  align-self: flex-end;
+  align-self: end;
+  background: url("../../img/dec/bottom-right.svg") no-repeat bottom 40px right
+    40px;
 }
 .depoimento-conteudo p {
   font-family: "Merriweather", serif;
@@ -31,7 +33,7 @@
 }
 
 .depoimento p::before {
-  content: "“";
+  content: " ";
   left: -50px;
   top: -20px;
 }
@@ -45,6 +47,12 @@
     grid-template-columns: 1fr;
     text-align: center;
   }
+}
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
+
   .depoimento img {
     max-height: 200px;
   }
